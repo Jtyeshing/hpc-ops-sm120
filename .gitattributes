@@ -1,0 +1,10 @@
+# Python's csv writer emits standard CRLF records; CR is part of the line ending.
+*.csv whitespace=cr-at-eol
+
+# Preserve exact CUDA tool output and generated evidence formatting/hashes.
+outputs/extreme/**/sass.txt -whitespace
+profile/extreme/**/*-details.txt -whitespace
+runs/extreme/**/report.md whitespace=-blank-at-eof
+runs/extreme/**/dispatch.md whitespace=-blank-at-eof
+profile/extreme/**/metrics-device.txt -whitespace
+profile/extreme/**/sections.txt -whitespace

@@ -1,0 +1,11 @@
+.deps/
+.build/
+.humanize/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.so
+*.o
+*.cubin
+*.ncu-rep
+
